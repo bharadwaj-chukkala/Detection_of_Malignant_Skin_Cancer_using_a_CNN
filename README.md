@@ -1,5 +1,26 @@
 # Detection_of_Malignant_Skin_Cancer_using_a_CNN
-To classify melanoma using skin lesions images from the ISIC Dataset
+
+## Objective: 
+To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+
+### Summary of the Skin Cancer Data**:
+
+1. Total number of images: 2357
+2. Images consist of Bening and Malignant Oncological Diseases.
+3. Data was gathered by ISIC (International Skin Imaging Collaboration).
+4. Images were sorted according to the classification taken with ISIC.
+5. All the subsets were divided into the same number of images, with an excpetion for melanomas whose images are slightly dominant.
+
+### Diseases in the Dataset
+ 1. Actinic keratosis
+ 2. Basal cell carcinoma
+ 3. Dermatofibroma
+ 4. Melanoma
+ 5. Nevus
+ 6. Pigmented benign keratosis
+ 7. Seborrheic keratosis
+ 8. Squamous cell carcinoma
+ 9. Vascular lesion
 
 ## CNN Model Architecture
 - The CNN is a Sequential Model type which allows us to construct our Neural Network Architecture layer by layer
