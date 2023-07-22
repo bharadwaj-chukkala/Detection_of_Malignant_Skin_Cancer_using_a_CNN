@@ -9,9 +9,9 @@ To classify melanoma using skin lesions images from the ISIC Dataset
 - Why am i using Softmax?, Because it makes interpreting the outputs of the Neural Network easier in the case of Multi-Class Classification by normalizing the outputs to probablities.
 
 ### Architecture -> Rescaling + Convolution + Pooling + Dropout + Flatten + Dense
-- **Rescaling**:  rescaling the input data ensures that all features are on a similar scale. This is particularly important when working with different types of features, such as pixel intensities and spatial coordinates, as having features with disparate scales can lead to biased or inefficient learning.
-
-Secondly, a rescaling layer helps to mitigate the influence of outliers in the data. Outliers, which are data points that significantly deviate from the majority of the data, can adversely affect
+- **Rescaling**:  rescaling the input data ensures that all features are on a similar scale.
+  - This is particularly important when working with different types of features, such as pixel intensities and spatial coordinates, as having features with disparate scales can lead to biased or inefficient learning.
+  - a rescaling layer also helps to mitigate the influence of outliers in the data. Outliers, which are data points that significantly deviate from the majority of the data, can adversely affect the model accuracy.
 - **Convolution**: It is specifically designed to process and analyze spatial structures in data such as images.
   - A convolutional layer applies a set of learnable filters to the input data, convolving them with the input pixels to extract and learn meaningful features. 
   - These filters act as feature detectors, capturing different characteristics like edges, textures, or patterns present in the input. 
