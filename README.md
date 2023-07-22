@@ -47,6 +47,12 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
   - In neural networks, data is typically represented in the form of tensors, which are multi-dimensional arrays. However, many algorithms and functions in machine learning and deep learning are designed to work with one-dimensional input. 
   - This is where the flatten layer comes into play. The flatten layer takes the multi-dimensional input and reshapes it into a one-dimensional array. This is done by sequentially stacking all the elements of the input array one after another. The resulting flattened array can then be easily fed into the subsequent layers of the network.
 - **Dense**: It is used to connect every neuron from the previous layer to the neurons in the current layer.
-  - The purpose of a dense layer is to allow the network to learn complex patterns and relationships in the data. 
+  - The purpose of a dense layer is to allow the network to learn complex patterns and relationships in the data.
+ 
+## References
+1. [Convolution Layers for CNNs](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/)
+2. [Pooling Layers for CNNs](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
+3. [Dropout Layers for CNNs](https://towardsdatascience.com/dropout-in-neural-networks-47a162d621d9#:~:text=Dropout%20layers%20have%20been%20the%20go%2Dto%20method%20to%20reduce,modern%20era%20of%20deep%20learning.&text=In%20this%20era%20of%20deep,career%20of%20building%20neural%20networks.)
+4. [Dense Layers for CNNs](https://analyticsindiamag.com/a-complete-understanding-of-dense-layers-in-neural-networks/)
   - By connecting all the neurons in the previous layer to the current layer, the dense layer can capture interactions between all the features present in the input data. 
   - This enables the network to make non-linear transformations and extract higher-level representations.
