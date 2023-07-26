@@ -73,6 +73,13 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 **Model Checkpoint**: A model checkpoint is a snapshot of a machine learning model at a particular point during training. It captures the weights, biases, and other parameters of the model, allowing us to save and reuse the model for future predictions or further training.
 - There are several reasons why we use model checkpoints. Firstly, they enable us to save the progress of a model during training so that we can resume training from where we left off in case of any interruptions. This is particularly useful when training deep learning models that may require days or weeks to complete.
 
+**Early Stopping**: S form of regularization to prevent overfitting and improve the generalization ability of a model. It involves monitoring the performance of the model during training and stopping the training process before it reaches the optimal number of iterations.
+- The idea behind early stopping is that, initially, as the model is being trained, the performance on the training data improves. However, after a certain point, the model starts to overfit the training data, resulting in a decrease in performance on unseen data. Early stopping allows us to prevent this overfitting by stopping the training process at an earlier point when the model's performance on a validation set starts to deteriorate.
+
+## Optimization
+- We have seen the results of the previous iteration of the model, and to improve the accuracy and reduce the loss, we will we implementing some techniques to optimize the working and achieve better results.
+
+
 ## References
 1. [Convolution Layers for CNNs](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/)
 2. [Pooling Layers for CNNs](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
